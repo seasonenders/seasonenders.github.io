@@ -20,7 +20,7 @@ export default function Home() {
       <div className="w-full text-center pt-4">
         <h1 className="text-white text-8xl pb-8">Season Enders</h1>
         <LocationPicker />
-        <p className="pt-10 text-white">This site attempts to catalog season-ending injuries in specific locations to see if trends can be identified, etc.</p>
+        <p className="pt-10 text-white">An attempt to catalog season-ending injuries in specific locations in the hopes of getting better facilities for these incredible athletes.</p>
       </div>
     </main>
   );

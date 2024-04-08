@@ -1,6 +1,6 @@
 'use client';
 
-import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue} from "@nextui-org/react";
+import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Link} from "@nextui-org/react";
 
 const columns = [
   {
@@ -19,15 +19,23 @@ const columns = [
 
 export const Injuries = ({data}: any) => {
     return (
-    <div className="px-7">
-    <Table aria-label="Example static collection table">
+    <div className="px-7 pb-5 min-w-[650px]">
+    <Table isStriped aria-label="Example static collection table">
       <TableHeader columns={columns}>
         {(column) => <TableColumn key={column.key}>{column.label}</TableColumn>}
       </TableHeader>
       <TableBody items={data.injuries}>
         {(item: any) => (
         <TableRow key={item.date}>
-          {(columnKey) => <TableCell>{getKeyValue(item, columnKey)}</TableCell>}
+          <TableCell>
+            {item.date}
+          </TableCell>
+          <TableCell>
+            <Link href={item.link} isExternal color="foreground" underline="hover">{item.name}</Link>
+          </TableCell>
+          <TableCell>
+            {item.league}
+          </TableCell>
         </TableRow>
         )}
       </TableBody>

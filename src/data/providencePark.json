@@ -31,6 +31,66 @@
             "name": "Mallory Weber",
             "league": "NWSL",
             "link": "https://www.kctv5.com/2023/04/27/current-defender-mallory-weber-suffers-season-ending-injury/"
+        },
+        {
+            "date": "11/14/2021",
+            "name": "Kaelia Watt",
+            "league": "NWSL",
+            "link": "https://justwomenssports.com/reads/nwsl-soccer-chicago-kealia-watt-torn-acl/"
+        },
+        {
+            "date": "5/9/2021",
+            "name": "Jeff Attinella",
+            "league": "MLS",
+            "link": "https://www.timbers.com/news/timbers-goalkeeper-jeff-attinella-announces-retirement#:~:text=Attinella%2C%2033%2C%20concluded%20his%20career,in%20a%20season%2Dending%20injury."
+        },
+        {
+            "date": "11/1/2020",
+            "name": "Jaroslaw Niezgoda",
+            "league": "MLS",
+            "link": "https://www.mlssoccer.com/news/portland-timbers-forward-jaroslaw-niezgoda-tears-acl-out-2020-season"
+        },
+        {
+            "date": "6/2/2019",
+            "name": "Angela Salem",
+            "league": "NWSL",
+            "link": "https://www.stumptownfooty.com/2019/6/14/18679644/angela-salem-to-miss-remainder-of-nwsl-season-with-acl-tear"
+        },
+        {
+            "date": "7/23/2016",
+            "name": "Nat Borchers",
+            "league": "MLS",
+            "link": "https://www.mlssoccer.com/news/portland-timbers-nat-borchers-out-season-ruptured-left-achilles#:~:text=Portland%20Timbers'%20Nat%20Borchers%20out%20for%20season%20with%20ruptured%20left%20Achilles,-Steve%20Brisendine&text=Portland%20center%20back%20Nat%20Borchers,the%20Timbers%20announced%20on%20Monday."
+        },
+        {
+            "date": "4/16/2016",
+            "name": "Adam Kwarasey",
+            "league": "MLS",
+            "link": "https://www.mlssoccer.com/news/portland-timbers-adam-kwarasey-out-least-month-due-finger-injury#:~:text=Porter%20told%20media%20on%20Tuesday,while%20picking%20up%20a%20shot."
+        },
+        {
+            "date": "2/21/2015",
+            "name": "Ben Zemanski",
+            "league": "MLS",
+            "link": "https://www.si.com/soccer/2015/02/23/portland-timbers-ben-zemanski-tears-acl"
+        },
+        {
+            "date": "8/17/2014",
+            "name": "Nikki Marshall",
+            "league": "NWSL",
+            "link": "https://www.oregonlive.com/portland-thorns/2014/08/portland_thorns_defender_nikki_6.html"
+        },
+        {
+            "date": "5/2/2013",
+            "name": "Mikaël Silvestre",
+            "league": "MLS",
+            "link": "https://www.timbers.com/news/portland-timbers-defender-mikael-silvestre-undergoes-successful-knee-surgery"
+        },
+        {
+            "date": "4/6/2013",
+            "name": "David Horst",
+            "league": "MLS",
+            "link": "https://www.oregonlive.com/timbers/2013/04/timbers_david_horst_likely_don.html"
         }
     ]
 }
