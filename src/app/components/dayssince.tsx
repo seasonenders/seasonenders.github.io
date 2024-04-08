@@ -8,16 +8,18 @@ export const DaysSince = () => {
     let differenceInDays = Math.round(difference / (1000 * 3600 * 24));
 
     return (
-    <Card className="max-w-[700px]">
-      <CardHeader className="flex items-center justify-center bg-orange-600">
-        <p className="text-4xl font-bold">IT HAS BEEN</p>
-      </CardHeader>
-      <CardBody className="flex items-center justify-center">
-        <p className="text-8xl font-bold">{differenceInDays} DAYS</p>
-      </CardBody>
-      <CardFooter>
-        <p className="text-4xl text-center font-bold">SINCE THE LAST SEASON-ENDING INJURY ON THE PROVIDENCE PARK TURF</p>
-      </CardFooter>
-    </Card>
+    <div className="px-7">
+      <Card className="max-w-[700px]">
+        <CardHeader className="flex items-center justify-center bg-orange-600">
+          <p className="text-4xl font-bold">IT HAS BEEN</p>
+        </CardHeader>
+        <CardBody className="flex items-center justify-center">
+          <p className="text-8xl text-center font-bold">{differenceInDays} DAYS</p>
+        </CardBody>
+        <CardFooter>
+          <p className="text-4xl text-center font-bold">SINCE THE LAST SEASON-ENDING INJURY ON THE PROVIDENCE PARK TURF</p>
+        </CardFooter>
+      </Card>
+    </div>
     )
 }
