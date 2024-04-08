@@ -11,13 +11,13 @@ export const DaysSince = ({data}: any) => {
     <div className="px-7">
       <Card className="max-w-[700px]">
         <CardHeader className="flex items-center justify-center bg-orange-600">
-          <p className="text-2xl lg:text-4xl font-bold">IT HAS BEEN</p>
+          <p className="text-2xl md:text-4xl font-bold">IT HAS BEEN</p>
         </CardHeader>
         <CardBody className="flex items-center justify-center">
-          <p className="text-4xl lg:text-8xl text-center font-bold">{differenceInDays} DAYS</p>
+          <p className="text-4xl md:text-8xl text-center font-bold">{differenceInDays} DAYS</p>
         </CardBody>
         <CardFooter>
-          <p className="text-2xl lg:text-4xl text-center font-bold">SINCE THE LAST SEASON-ENDING INJURY AT {name}</p>
+          <p className="text-2xl md:text-4xl text-center font-bold">SINCE THE LAST SEASON-ENDING INJURY AT {name}</p>
         </CardFooter>
       </Card>
     </div>
