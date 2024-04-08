@@ -1,4 +1,36 @@
 {
     "name": "PROVIDENCE PARK",
-    "lastInjury": "March 30, 2024"
+    "lastInjury": "March 30, 2024",
+    "injuries": [
+        {
+            "date": "3/30/2024",
+            "name": "Elli Pikkujämsä",
+            "league": "NWSL",
+            "link": "https://www.racingloufc.com/news/2024/04/04/elli-pikkujamsa-out-for-season-with-knee-injury/"
+        },
+        {
+            "date": "3/24/2024",
+            "name": "Midge Purce",
+            "league": "NWSL",
+            "link": "https://www.espn.com/soccer/story/_/id/39821334/uswnt-purce-olympics-nwsl-season-acl-injury"
+        },
+        {
+            "date": "3/15/2023",
+            "name": "Janine Beckie",
+            "league": "NWSL",
+            "link": "https://www.sportsnet.ca/soccer/article/canadas-janine-beckie-suffers-torn-acl-will-miss-season/"
+        },
+        {
+            "date": "9/21/2022",
+            "name": "Nadia Nadim",
+            "league": "NWSL",
+            "link": "https://justwomenssports.com/reads/racing-louisville-nadia-nadim-out-nwsl-season-acl-tear/"
+        },
+        {
+            "date": "4/30/2022",
+            "name": "Mallory Weber",
+            "league": "NWSL",
+            "link": "https://www.kctv5.com/2023/04/27/current-defender-mallory-weber-suffers-season-ending-injury/"
+        }
+    ]
 }
