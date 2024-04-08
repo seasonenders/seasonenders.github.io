@@ -1,0 +1,1 @@
+- Move this to use dynamic routes when https://github.com/vercel/next.js/issues/54393 is resolved
