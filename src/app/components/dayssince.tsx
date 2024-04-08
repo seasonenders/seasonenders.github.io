@@ -13,7 +13,7 @@ export const DaysSince = ({data}: any) => {
       let difference = today.valueOf() - lastInjury.valueOf();
       let differenceInDays = Math.round(difference / (1000 * 3600 * 24));
       setDaysSinceLastInjury(differenceInDays);
-    });
+    }, [data.lastInjury, data.name]);
 
     return (
     <div className="px-7">

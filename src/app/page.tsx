@@ -26,7 +26,7 @@ export default function Home() {
         <p className="pt-5 text-white">Wanna add or update data? <Link href="https://github.com/seasonenders/seasonenders.github.io/tree/main/src/data" isExternal color="warning" underline="hover">Open a pull request!</Link></p>
       </div>
       </div>
-      <div className="w-full text-center fixed bottom-0 text-white pb-5">Made with &#10084; by a nerd in Portland. As with all nerd side-projects it's way overbuilt for the job. &#128514;</div>
+      <div className="w-full text-center fixed bottom-0 text-white pb-5">Made with &#10084; by a nerd in Portland. As with all nerd side-projects it&apos;s way overbuilt for the job. &#128514;</div>
     </main>
   );
 }
