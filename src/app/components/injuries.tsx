@@ -19,7 +19,7 @@ const columns = [
 
 export const Injuries = ({data}: any) => {
     return (
-    <div className="px-7 pb-5 min-w-[650px]">
+    <div className="px-7 pb-5 md:min-w-[650px]">
     <Table isStriped aria-label="Example static collection table">
       <TableHeader columns={columns}>
         {(column) => <TableColumn key={column.key}>{column.label}</TableColumn>}

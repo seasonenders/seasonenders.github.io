@@ -25,7 +25,7 @@ export const DaysSince = ({data}: any) => {
           <p className="text-6xl md:text-8xl text-center font-bold">{daysSinceLastInjury} DAYS</p>
         </CardBody>
         <CardFooter>
-          <p className="text-2xl md:text-4xl text-center font-bold">SINCE THE LAST SEASON-ENDING INJURY AT {data.name}</p>
+          <p className="text-2xl md:text-4xl text-center font-bold">SINCE THE LAST SEASON-ENDING INJURY AT {data.name.toUpperCase()}</p>
         </CardFooter>
       </Card>
     </div>
