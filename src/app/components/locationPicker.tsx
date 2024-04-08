@@ -3,7 +3,7 @@ import {Select, SelectItem} from "@nextui-org/react";
 
 export const LocationPicker = () => {
     return (
-      <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
+      <div>
         <Select 
           label="Select a location:" 
           className="max-w-xs"
